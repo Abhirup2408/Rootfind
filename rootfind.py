@@ -43,7 +43,7 @@ def secant_method(func, x0, x1, tol=1e-6, max_iter=100):
 # Streamlit app
 def main():
     st.title("Root Finding Methods")
-    st.write("Developed and deployed by Abhirup Ghosh")
+    st.write("*Developed and deployed by Abhirup Ghosh*")
     method = st.selectbox("Choose the method", ["Bisection Method", "Newton-Raphson Method", "Secant Method"])
 
     func_str = st.text_input("Enter the function (in terms of x, e.g., 'x**2 - 4', 'math.sin(x)'):")
